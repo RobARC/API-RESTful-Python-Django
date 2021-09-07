@@ -73,7 +73,12 @@ Start the server
 ```bash
     python manage.py runserver
 ```
-## Demo
+### Demo
+
+## Entity Model Relationship
+
+<img src="./images/DER.png"/>
+
 
 ### API Reference
 
