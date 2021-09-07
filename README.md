@@ -97,7 +97,9 @@ Start the server
     GET /
 ```
 ##### You can see the API Root
-<img src="./images/demo1.png"/>
+<img src="./images/demo6.png"/>
+<img src="./images/demo7.png"/>
+
 
 #### Get all Customers
 
