@@ -79,6 +79,12 @@ Start the server
 
 <img src="./images/DER.png"/>
 
+### Script SQL
+
+```
+    You can see the sql script in the file scrit.sql
+```
+
 
 ### API Reference
 
