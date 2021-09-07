@@ -79,9 +79,11 @@ Start the server
 
 #### API Root local
 
-```http://127.0.0.1:8000
 ```
-```GET /
+    http://127.0.0.1:8000
+```
+```
+    GET /
 ```
 ##### You can see the API Root
 <img src="./images/demo1.png"/>
