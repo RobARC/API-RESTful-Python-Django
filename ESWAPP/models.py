@@ -9,6 +9,17 @@ class Orden(models.Model):
     nro_orden = IntegerField(unique=True,  auto_created=True, null=False)
     cliente = CharField(max_length=200, blank=False, null=False)
     fecha_orden = DateTimeField(auto_now_add=False)
+    CRUDO = 'CRD'
+    LAMINADO = 'LMD'
+    ESMERILADO = 'ESM'
+    Tipo_Cristal = (
+        (CRUDO, 'Crudo'),
+        (LAMINADO, 'Laminado'),
+        (ESMERILADO, 'Esmerilado')
+    )
+    Cristal = CharField(max_length=100, choices=Tipo_Cristal, default=CRUDO)
+    ancho = CharField(max_length=50, blank=False, null=True)
+    alto = CharField(max_length=50, blank=False, null=True)
     SOLICITADA = 'SOL'
     APROBADA = 'APR'
     ANULADA = 'NUL'
