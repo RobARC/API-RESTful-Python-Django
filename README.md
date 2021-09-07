@@ -100,7 +100,7 @@ Start the server
 
 <img src="./images/demo2.png"/>
 
-##### You can see Order Form
+##### You can see Customer Form scroll down
 <img src="./images/demo5.png"/>
 
 ### Get all Orders
